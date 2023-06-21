@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="520.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReceiptController">
+   <children>
+      <ImageView fitHeight="737.0" fitWidth="439.0">
+         <image>
+            <Image url="@../layout/ORDER%20RECEIPT.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="product1" layoutX="20.0" layoutY="284.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="product2" layoutX="20.0" layoutY="304.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="product3" layoutX="20.0" layoutY="323.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="product4" layoutX="20.0" layoutY="341.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="product5" layoutX="20.0" layoutY="361.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="product6" layoutX="20.0" layoutY="380.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="product7" layoutX="20.0" layoutY="399.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="product8" layoutX="20.0" layoutY="419.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="product9" layoutX="20.0" layoutY="438.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="produce" layoutX="20.0" layoutY="458.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty1" layoutX="198.0" layoutY="284.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty2" layoutX="198.0" layoutY="304.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty3" layoutX="198.0" layoutY="323.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty4" layoutX="198.0" layoutY="341.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty5" layoutX="198.0" layoutY="361.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty6" layoutX="198.0" layoutY="380.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty7" layoutX="198.0" layoutY="399.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty8" layoutX="198.0" layoutY="419.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty9" layoutX="198.0" layoutY="438.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty10" layoutX="198.0" layoutY="458.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="price1" layoutX="373.0" layoutY="284.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="price2" layoutX="373.0" layoutY="304.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="price3" layoutX="373.0" layoutY="323.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="price4" layoutX="373.0" layoutY="341.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="price5" layoutX="373.0" layoutY="361.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="price6" layoutX="373.0" layoutY="380.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="price7" layoutX="373.0" layoutY="399.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="price8" layoutX="373.0" layoutY="419.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="price9" layoutX="373.0" layoutY="438.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="price10" layoutX="373.0" layoutY="458.0" text="-----------" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="total" alignment="CENTER" layoutX="362.0" layoutY="565.0" text="-----------" textAlignment="CENTER" textFill="#0b2c5a">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="warning" alignment="CENTER" layoutX="87.0" layoutY="613.0" text="**you have reached the maximum amount of items**" textAlignment="CENTER" textFill="#0b2c5a" visible="false">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button layoutX="13.0" layoutY="684.0" mnemonicParsing="false" onAction="#gotohome" prefHeight="30.0" prefWidth="92.0" style="-fx-background-color: #0b2c5a; -fx-background-radius: 50;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="336.0" layoutY="684.0" mnemonicParsing="false" onAction="#quit" prefHeight="30.0" prefWidth="92.0" style="-fx-background-color: #0b2c5a; -fx-background-radius: 50;" text="Exit" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
